@@ -18,3 +18,6 @@ B8 = raster_to_array(b8_path)
 # array_to_raster(np.sqrt(raster_to_array(blur_path)).astype('float32'), out_raster=folder + 'bs_blur_sqrt.tif', reference_raster=b4_path)
 
 array_to_raster((B4 - B8) / (B4 + B8), out_raster=folder + 'inv_ndvi.tif', reference_raster=b4_path)
+
+
+adding some new code here
